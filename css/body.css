@@ -1,0 +1,52 @@
+.body__wrapper {
+    display: flex;                
+    align-items: center;                                                                                 
+    padding: 60px 20px;                  
+    flex-direction: column;       
+    justify-content: center;      
+  
+}
+
+.text-heading{
+font-size: 43px;
+font-weight: 400;
+line-height: 58px;
+font-family: Roboto;
+margin-bottom: 20px
+}
+
+.text-small{
+  color: rgb(160, 160, 160);
+font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.8px;
+margin-bottom: 20px
+
+}
+
+.linkTeast{
+color: rgb(0, 0, 0);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 1.4px;
+text-align: center;
+text-transform: uppercase;
+text-decoration: none;
+margin-bottom: 20px
+
+}
+
+.design{
+  display: flex;
+  justify-content: space-evenly;
+ padding: 20px;
+  max-width: 100%;
+}
+
+.foto{
+  max-width: 100%;
+}
