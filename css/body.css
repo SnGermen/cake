@@ -7,7 +7,7 @@
   
 }
 
-.text-heading{
+.body__text_heading{
 font-size: 43px;
 font-weight: 400;
 line-height: 58px;
@@ -15,7 +15,7 @@ font-family: Roboto;
 margin-bottom: 20px
 }
 
-.text-small{
+.article__text_small{
   color: rgb(160, 160, 160);
 font-family: Roboto;
 font-size: 13px;
@@ -26,7 +26,17 @@ margin-bottom: 20px
 
 }
 
-.linkTeast{
+
+.design__container{
+  width: 100%;
+  max-width:1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+} 
+
+
+.body__linkTeast{
 color: rgb(0, 0, 0);
 font-family: Roboto;
 font-size: 14px;
@@ -43,10 +53,48 @@ margin-bottom: 20px
 .design{
   display: flex;
   justify-content: space-evenly;
- padding: 20px;
+ padding: 0px 20px;
+}
+
+.article__foto{
   max-width: 100%;
 }
 
-.foto{
-  max-width: 100%;
+
+
+
+
+
+.article__text {
+    text-align: center;
+}
+
+.article__text_big {
+  font-size: 27px;
+font-weight: 400;
+line-height: 30px;
+    margin-top: 10px;
+}
+
+.article__text_small {
+    font-size: 1em;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 500px) {
+.body__text_small{
+  font-size: 10px;
+}
+
+.article__text_big{
+  font-size: 23px;
+}
+
+.article__text_small{
+  font-size: 15px;
+}
 }

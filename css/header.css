@@ -29,7 +29,7 @@ display: flex;
 justify-content: center;
 }
 
-.header__mycart{
+.header__myCart{
  display: flex;
     justify-content: end;
      margin: 0px 10px 0px 20px;
@@ -86,7 +86,11 @@ font-size: 10px;
 }
 
 
-
+.laptope__text{
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
 
 .laptope__text_big{
 
@@ -95,11 +99,13 @@ font-weight: 400;
 line-height: 46px;
 }
 
-.laptope__text_small{
+.body__text_small{
   font-size: 15px;
 font-weight: 400;
 line-height: 18px;
 padding: 20px;
+color: gray;
+
 }
 
 
