@@ -1,4 +1,6 @@
 @import url(reset.css);
+@import url(office.css);
 @import url(header.css);
 @import url(body.css);
-@import url(proposition.css)
+@import url(proposition.css);
+@import url(onFooter.css);
