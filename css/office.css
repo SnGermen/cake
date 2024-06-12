@@ -1,25 +1,23 @@
 .office{
-  background: url('../img/office.svg');
-  background-size: 100%;
-  min-height: 504px;
-  background-position: center;
-  background-size: cover;
-  color:  white;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  padding: 50px 20px;
-
-  
+background: url('../img/office.svg');
+background-size: 100%;
+min-height: 504px;
+background-position: center;
+background-size: cover;
+color:  white;
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+padding: 50px 20px;
 }
 
 
 .office__text{
-  color: white;
-  text-decoration: none;
-  margin-bottom: 20px;
+color: white;
+text-decoration: none;
+margin-bottom: 20px;
 }
 
 .office__text_heading{
@@ -41,36 +39,34 @@ text-align: center;
 text-transform: uppercase;
 text-decoration: none;
 margin-bottom: 20px
-
 }
+
 @media (max-width: 445px) {
-    .office__text_heading{
-        font-size: 30px;
-    }
+.office__text_heading{
+font-size: 30px;
+}
 }
 
 @media (max-width: 500px) {
 .office__text_small{
-  font-size: 9px;
+font-size: 9px;
 }
 
 .office__text_big{
-  font-size: 23px;
+font-size: 23px;
 }
-
-
 }
 
 @media (max-width: 700px) {
-    .office {
-        min-height: auto;
-    }
-    .office__text_small{
-  font-size: 8px;
+.office {
+min-height: auto;
+}
+.office__text_small{
+font-size: 8px;
 }
 
 .office__linkTeast {
-  font-size: 8px;
+font-size: 8px;
 }
 }
 

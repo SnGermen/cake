@@ -12,7 +12,7 @@ font-size: 43px;
 font-weight: 400;
 line-height: 58px;
 font-family: Roboto;
-margin-bottom: 20px
+
 }
 
 .article__text_small{
@@ -87,14 +87,14 @@ line-height: 30px;
 
 @media (max-width: 500px) {
 .body__text_small{
-  font-size: 10px;
+font-size: 10px;
 }
 
 .article__text_big{
-  font-size: 23px;
+font-size: 23px;
 }
 
 .article__text_small{
-  font-size: 15px;
+font-size: 15px;
 }
 }

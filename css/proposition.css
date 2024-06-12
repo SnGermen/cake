@@ -8,16 +8,15 @@
 
 
 .proposition__text_headling{
-    font-size: 33px;
-    font-weight: 400;
-    line-height: 58px;
-    font-family: Roboto;
-  
-    text-align: center;
+font-size: 33px;
+font-weight: 400;
+line-height: 58px;
+font-family: Roboto;
+text-align: center;
 }
 
 .proposition__text_small{
-  color: rgb(160, 160, 160);
+color: rgb(160, 160, 160);
 font-weight: 400;
 line-height: 18px;
 letter-spacing: 0.8px;
@@ -26,14 +25,13 @@ font-size: 15px;
 }
 
 .proposition__punts{
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
+display: flex;
+justify-content: center;
+margin-top: 30px;
 }
 
 .scroll__text{
-  color: gray;
-
+color: gray;
 }
 
 .scroll__container{
@@ -41,12 +39,12 @@ margin: 12px 12px;
 }
 
 .scroll {
-    width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch; 
-    scrollbar-width: none; 
-    box-sizing: border-box;
-    padding: 10px;
+width: 100%;
+overflow-x: auto;
+-webkit-overflow-scrolling: touch; 
+scrollbar-width: none; 
+box-sizing: border-box;
+padding: 10px;
 }
 
 

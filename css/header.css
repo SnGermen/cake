@@ -1,49 +1,33 @@
-.header__wrapper{
- display: flex;
- width: 100%;
- padding: 37px 0px;
- background: rgb(255, 255, 255);
- justify-content: center;
-}
-
-.header__wrapper{
-  color: rgb(0, 0, 0);
-font-family: Roboto;
-font-size: 13px;
-font-weight: 400;
-line-height: 15px;
-letter-spacing: 1.4px;
-display: flex;
-align-items: center;
-}
-
-.header__shop{
-
-    display: flex;
-    margin: 0px 10px 0px 20px;
-    justify-content: flex-start;
-}
-
-.logo__img{
-display: flex;
-justify-content: center;
-}
-
-.header__myCart{
- display: flex;
-    justify-content: end;
-     margin: 0px 10px 0px 20px;
-    width: 100%;
-
-}
-
-.header__explore{
-  width: 100%;
+.header {
   display: flex;
-  justify-self: start;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
 }
 
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
 
+.header__shopExplore {
+  margin-right: auto;
+  display: flex;
+  gap: 20px;
+}
+
+.header__myCart {
+  margin-left: auto;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
 
 
 @media (max-width: 400px) {
@@ -100,25 +84,19 @@ line-height: 46px;
 }
 
 .body__text_small{
-  font-size: 15px;
+font-size: 15px;
 font-weight: 400;
 line-height: 18px;
 padding: 20px;
 color: gray;
-
 }
 
 
 
 @media (max-width: 445px) {
 .laptope__text_big{
-
 font-size: 30px;
-
 }
-
-
-
 }
 
 
@@ -127,7 +105,7 @@ font-size: 30px;
 
 
 @media (max-width: 700px) {
-  .laptope {
-     min-height: auto;
-  }
+.laptope {
+min-height: auto;
+}
 }
