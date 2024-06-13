@@ -1,0 +1,35 @@
+.footer__header{
+color:  black;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+padding: 50px 20px;
+}
+
+.footer__headerText {
+font-size: 41px;
+font-weight: 400;
+line-height: 58px;
+font-family: Roboto;
+margin-bottom: 20px
+}
+
+.footer__headerLinkTeast{
+color: black;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 1.4px;
+text-align: center;
+text-transform: uppercase;
+text-decoration: none;
+margin-bottom: 20px
+}
+
+.foter{
+  height: 404px;
+  width: 100%;
+  background: rgb(154, 168, 177);
+}
