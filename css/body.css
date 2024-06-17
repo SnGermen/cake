@@ -1,100 +1,78 @@
-.body__wrapper {
-    display: flex;                
-    align-items: center;                                                                                 
-    padding: 60px 20px;                  
-    flex-direction: column;       
-    justify-content: center;      
-  
+.body__wrapper{
+display:flex;
+align-items:center;
+padding:60px 20px;
+flex-direction:column;
+justify-content:center;
 }
-
 .body__text_heading{
-font-size: 43px;
-font-weight: 400;
-line-height: 58px;
-font-family: Roboto;
-
+font-size:43px;
+font-weight:400;
+line-height:58px;
+font-family:Roboto;
 }
-
 .article__text_small{
-  color: rgb(160, 160, 160);
-font-family: Roboto;
-font-size: 13px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.8px;
-margin-bottom: 20px
-
+color:rgb(160,160,160);
+font-family:Roboto;
+font-size:13px;
+font-weight:400;
+line-height:24px;
+letter-spacing:0.8px;
+margin-bottom:20px;
+cursor:pointer;
+text-decoration:none;
 }
-
-
 .design__container{
-  width: 100%;
-
-  margin: 0 auto;
-  display: flex;
-  gap: 20px;
-} 
-
-
+display:flex;
+width:100%;
+margin:0 auto;
+gap:20px;
+}
 .body__linkTeast{
-color: rgb(0, 0, 0);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: 21px;
-letter-spacing: 1.4px;
-text-align: center;
-text-transform: uppercase;
-text-decoration: none;
-margin-bottom: 20px
-
+color:rgb(0,0,0);
+font-family:Roboto;
+font-size:14px;
+font-weight:400;
+line-height:21px;
+letter-spacing:1.4px;
+text-align:center;
+text-transform:uppercase;
+text-decoration:none;
+margin-bottom:20px;
+cursor:pointer;
 }
-
 .design{
-  display: flex;
-  justify-content: space-evenly;
- padding: 0px 20px;
+display:flex;
+justify-content:space-evenly;
+flex-wrap:wrap;
+padding:0px 20px;
 }
-
 .article__foto{
- width: 100%;
+width:100%;
 }
-
-
-
-
-
-
-.article__text {
-    text-align: center;
+.article__text{
+text-align:center;
 }
-
-.article__text_big {
-  font-size: 27px;
-font-weight: 400;
-line-height: 30px;
-    margin-top: 10px;
-}
-
-.article__text_small {
-    font-size: 1em;
-    margin-top: 5px;
-    display: flex;
-    justify-content: center;
-}
-
-
-
-@media (max-width: 500px) {
-.body__text_small{
-font-size: 10px;
-}
-
 .article__text_big{
-font-size: 23px;
+font-size:27px;
+font-weight:400;
+line-height:30px;
+margin-top:10px;
 }
-
 .article__text_small{
-font-size: 15px;
+font-size:1em;
+margin-top:5px;
+display:flex;
+justify-content:center;
+}
+@media(max-width:500px){
+.body__text_small{
+font-size:10px;
+}
+.article__text_big{
+font-size:23px;
+}
+.article__text_small{
+font-size:15px;
 }
 }
