@@ -6,7 +6,7 @@ flex-direction:column;
 justify-content:center;
 }
 .proposition__text_headling{
-font-size:33px;
+font-size:43px;
 font-weight:400;
 line-height:58px;
 font-family:Roboto;
@@ -39,8 +39,14 @@ scrollbar-width:none;
 box-sizing:border-box;
 padding:10px;
 }
-
-
+@media(max-width:445px){
+.proposition__text_headling{
+font-size:30px;
+}
+.body__text_heading{
+font-size:30px;
+}
+}
 
 
 
